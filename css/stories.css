@@ -1,0 +1,91 @@
+/* Lists of stories */
+
+.stories-list {
+  margin: 20px 5px;
+}
+
+.stories-list > li {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+
+/* Individual stories */
+
+.story-link {
+  color: black;
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 18px 0;
+}
+
+.story-link:hover {
+  text-decoration: none;
+}
+
+.story-author {
+  margin-left: 2em;
+  color: green
+}
+
+.story-user {
+  display: block;
+  font-weight: bold;
+  color: orangered
+}
+
+/* Favorite Button Styling */
+#favorite {
+  background-color: #E0E8FF; /* Soft blue */
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.85rem;
+  color: #333; 
+}
+
+#favorite:hover {
+  background-color: #C6D2FF;
+}
+
+/* Remove Button Styling */
+.remove-button {
+  background-color: #FFE5E5; 
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.85rem;
+  color: #333; 
+}
+
+.remove-button:hover {
+  background-color: #FFCCCC; 
+}
+
+/* Delete Button Styling */
+#delete {
+  background-color: #FF7F7F; 
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.85rem;
+  color: white; 
+  float: right;
+}
+
+#delete:hover {
+  background-color: #FF5F5F; 
+}
