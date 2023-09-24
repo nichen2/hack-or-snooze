@@ -198,10 +198,10 @@ async function deleteStory(evt) {
         token: currentUser.loginToken,
       },
     });
+    evt.target.parentNode.remove();
   } catch (err) {
     console.error(`Failed to delete story with ID: ${storyId}`);
   }
-  evt.target.parentNode.remove();
 }
 
 $favoritesList.on("click", "#delete", function () {
